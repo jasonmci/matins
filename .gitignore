@@ -1,0 +1,32 @@
+# Node / package managers
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun.lockb
+
+# Build outputs
+/dist
+/dist-ssr
+/build
+/.vercel
+/.netlify
+
+# TypeScript
+*.tsbuildinfo
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Editor/system
+.DS_Store
+.vscode/
+.idea/
+
+# Testing & coverage
+coverage/
+playwright-report/
+test-results/
